@@ -1,0 +1,12 @@
+subproject1/dist
+subproject1/node_modules
+subproject1/npm-debug.log
+subproject1/.node_history
+subproject2/node_modules
+subproject2/npm-debug.log
+subproject2/.node_history
+_site
+node_modules
+npm-debug.log
+.node_history
+.DS_STORE

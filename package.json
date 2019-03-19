@@ -1,0 +1,12 @@
+{
+  "name": "federalist-monorepo-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "link:subproject1": "ln -sf ./subproject1/dist _site",
+    "build:subproject1": "cd subproject1 && npm install && npm run build && cd ..",
+    "federalist": "npm run build:subproject1 && npm run link:subproject1"
+  },
+  "author": "",
+  "license": "CC0-1.0"
+}
